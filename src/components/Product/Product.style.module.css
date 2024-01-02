@@ -1,0 +1,14 @@
+.productImage {
+  width: 40%;
+  height: 100%;
+}
+
+.imageContainer {
+  text-align: center;
+  height: 5rem;
+  width: 100%;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+}

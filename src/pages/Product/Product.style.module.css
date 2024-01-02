@@ -1,0 +1,14 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding: 1rem;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.productItem{
+    text-align: center;
+    min-height: 15rem;
+    min-width: 8rem;
+    background-color: #bdc3c7;
+}
