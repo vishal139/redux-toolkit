@@ -1,0 +1,10 @@
+.cartContainer {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.cart {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  font-weight: 600;
+}

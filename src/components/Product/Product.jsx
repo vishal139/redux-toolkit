@@ -7,7 +7,7 @@ import { useDispatch } from "react-redux";
 
 const ProductItem = ({ product }) => {
   const dispatch = useDispatch()
-  const { catagory, description, image, price, title, id } = product;
+  const { description, image, price, title, id } = product;
 
   const addProductItem = () => {
     console.log('this is the product', product)
@@ -16,14 +16,13 @@ const ProductItem = ({ product }) => {
 
   return (
     <div className={style.card}>
-      <p>{title}</p>
+      <p className={style.tilteText}>{title}</p>
       <div className={style.imageContainer}>
         <img src={image} alt="productimage" className={style.productImage} />
       </div>
-      <p>{catagory}</p>
-      <p>{description}</p>
-      <p>{price}</p>
-      <button onClick={addProductItem}>add</button>
+      <p className={style.text}>{description}</p>
+      <p className={style.price}>${price}</p>
+      <button className={style.btn} onClick={addProductItem}>add</button>
     </div>
   );
 };

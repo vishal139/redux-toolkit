@@ -21,3 +21,14 @@
     color: #34495e;
     cursor: pointer;
 }
+
+.cartBtn{
+    border: none;
+    width: 5rem;
+    padding: 0.4rem;
+    cursor: pointer;
+}
+
+.itemCount{
+    margin-right: 1rem;
+}

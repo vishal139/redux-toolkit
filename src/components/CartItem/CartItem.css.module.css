@@ -1,0 +1,37 @@
+.container{
+    width: 80%;
+    margin: 1rem auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 5px 5px 10px rgb(149, 165, 166);
+}
+
+.box{
+    display: flex;
+    align-items: center;
+    text-align: start;
+    justify-content: space-between;
+    width: 40%;
+    margin-left: 0;
+}
+
+.title{
+    width: 100%;
+    padding: 0.5rem;
+    margin-left: 1rem;
+
+}
+.picture{
+    width: 3rem;
+    margin-left: 0;
+}
+
+.btn{
+    padding: 0.5rem;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(127, 140, 141);
+    color: white;
+    border-radius: 1px;
+}
